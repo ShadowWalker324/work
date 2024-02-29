@@ -1,0 +1,11 @@
+loan_amount = 650000
+annual_interest_rate = 5 / 100
+loan_length_years = 20
+months_per_year = 12
+
+monthly_interest_rate = annual_interest_rate / months_per_year
+total_payments = loan_length_years * months_per_year
+monthly_payment = loan_amount * monthly_interest_rate * (1 + monthly_interest_rate) ** total_payments / ((1 + monthly_interest_rate) ** total_payments - 1)
+
+print("You will need to pay $", round(monthly_payment), "monthly.")
+  
