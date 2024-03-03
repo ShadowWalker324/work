@@ -9,3 +9,7 @@ monthly_payment = loan_amount * monthly_interest_rate * (1 + monthly_interest_ra
 
 print("You will need to pay $", round(monthly_payment), "monthly.")
   
+---------------------------------------------------------------------------------------------------------------------------------------------
+n = int(input("Enter the value for n: "))
+sum_of_n = n*(n+1)*(2*n+1) // 6
+print ("The sum of the first", n,  "squared integers is", sum_of_n)
