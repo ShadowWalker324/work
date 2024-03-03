@@ -13,3 +13,11 @@ print("You will need to pay $", round(monthly_payment), "monthly.")
 n = int(input("Enter the value for n: "))
 sum_of_n = n*(n+1)*(2*n+1) // 6
 print ("The sum of the first", n,  "squared integers is", sum_of_n)
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+import math
+number_of_people = input("Enter the number of people: ")
+number_of_slices = input ("Enter the number of slices in each cake: ")
+cakes = int(number_of_people) / int(number_of_slices)
+print (math.ceil(cakes), "cakes are needed.")
