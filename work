@@ -34,3 +34,10 @@ length = float(input("Enter the length of the pendulum in metres: "))
 g = 9.8066
 period = math.pi * 2 * math.sqrt(length / g )
 print ("The period of the pendulum is", (round(period , 2)), "seconds.")
+---------------------------------------------------------------------------------------------------------------------------------------------
+import math
+intial_seconds = int (input("Enter the total number of seconds: "))
+hours = intial_seconds // 3600
+minutes = (intial_seconds % 3600) // 60
+seconds = intial_seconds % 60
+print(intial_seconds, "second(s) is equal to", hours, "hour(s),",minutes, "minute(s), and", seconds,"second(s).")
