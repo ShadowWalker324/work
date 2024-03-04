@@ -21,3 +21,9 @@ number_of_people = input("Enter the number of people: ")
 number_of_slices = input ("Enter the number of slices in each cake: ")
 cakes = int(number_of_people) / int(number_of_slices)
 print (math.ceil(cakes), "cakes are needed.")
+---------------------------------------------------------------------------------------------------------------------------------------------
+import math
+adjacent_side = float (input("Enter the length of the adjacent side: "))
+angle = float (input("Enter the value of the angle: "))
+hypotenuse = (adjacent_side / math.cos((angle)))
+print ("The length of the hypotenuse is", round(hypotenuse ,3))
