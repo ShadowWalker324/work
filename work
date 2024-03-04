@@ -27,3 +27,10 @@ adjacent_side = float (input("Enter the length of the adjacent side: "))
 angle = float (input("Enter the value of the angle: "))
 hypotenuse = (adjacent_side / math.cos((angle)))
 print ("The length of the hypotenuse is", round(hypotenuse ,3))
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+import math
+length = float(input("Enter the length of the pendulum in metres: "))
+g = 9.8066
+period = math.pi * 2 * math.sqrt(length / g )
+print ("The period of the pendulum is", (round(period , 2)), "seconds.")
