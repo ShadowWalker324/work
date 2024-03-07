@@ -68,4 +68,45 @@ print (f"{num_1} less than {num_2}: {num_1 < num_2}")
 print (f"{num_1} not equal to {num_2}: {num_1 != num_2}")
 print (f"{num_1} greater than or equal to {num_2}: {num_1 >= num_2}")
 print (f"{num_1} less than or equal to {num_2}: {num_1 <= num_2}")
+---------------------------------------------------------------------------------------------------------------------------------------------
+twenty_eight_days = ("February")
+thrity_one_days = ("January", "March", "May", "July", "August", "October", "December")
+thirty_days = ("April", "June", "September", "November")
+month = input("Enter the name of a month: ")
+if month == "February":
+    print(f"{month} has 28 days.")
+elif month == "January":
+    print(f"{month} has 31 days.")
+elif month == "March":
+    print(f"{month} has 31 days.")
+elif month == "May":
+    print(f"{month} has 31 days.")
+elif month == "July":
+    print(f"{month} has 31 days.")
+elif month == "August":
+    print(f"{month} has 31 days.")
+elif month == "October":
+    print(f"{month} has 31 days.")
+elif month == "December":
+    print(f"{month} has 31 days.")
+elif month == "April":
+    print(f"{month} has 30 days.")
+elif month == "June":
+    print(f"{month} has 30 days.")
+elif month == "September":
+    print(f"{month} has 30 days.")
+elif month == "November":
+    print(f"{month} has 30 days.")
+
+
+
+
+
+
+
+
+
+
+
+
 
