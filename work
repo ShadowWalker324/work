@@ -98,7 +98,35 @@ elif month == "September":
 elif month == "November":
     print(f"{month} has 30 days.")
 
+---------------------------------------------------------------------------------------------------------------------------------------------
+import math
 
+
+def calculate_roots(a, b, c):
+    discriminant = b ** 2 - 4 * a * c
+
+    if discriminant > 0:
+        root1 = (-b + math.sqrt(discriminant)) / (2 * a)
+        root2 = (-b - math.sqrt(discriminant)) / (2 * a)
+        root1_formatted = "{%.2f}".format(root1)
+        root2_formatted = "{%.2f}".format(root2)
+
+        print(f"There are two roots: {root2_formatted} and {root1_formatted}")
+
+    elif discriminant == 0:
+        root = -b / (2 * a)
+
+        print("There is a single root:", root)
+    else:
+        print("There is no root in the space of real numbers.")
+
+print("A quadratic equation has the form: ax^2 + bx + c")
+a = int(input("Enter the value for a: "))
+b = int(input("Enter the value for b: "))
+c = int(input("Enter the value for c: "))
+
+
+calculate_roots(a, b, c)
 
 
 
